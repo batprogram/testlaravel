@@ -10,8 +10,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                bat 'git clone https://your-repo-url.git' // Ganti dengan URL repository Anda
-            }
+                at 'git clone https://github.com/batprogram/testlaravel.git' 
+                            }
         }
 
         stage('Install Dependencies') {
