@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                at 'git clone https://github.com/batprogram/testlaravel.git' 
+                at 'git clone https://github.com/batprogram/testlaravel.git' branch: 'main'
                             }
         }
 
